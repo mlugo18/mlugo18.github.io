@@ -1,4 +1,29 @@
-h1{
-    font-size: 2em;
-    color: blueviolet;
+.body{
+    background-color: black;
+}
+.grid{
+    display: grid;
+    padding: 1em;
+    grid-template-rows: 15% 300px auto 10%;
+    grid-template-columns: 235px 1fr;
+    grid-gap: 1em;
+}
+.grid>*{
+    border: 1px	solid black;
+    padding: 1em;
+}
+.grid>header{
+    background-color: cadetblue;
+    grid-column: 1/4;
+}
+.grid>sidebar{
+    background-color: darkgray;
+    border-radius: 10% 25%;
+}
+.grid>content{
+    background-color: purple;
+}
+.grid>footer{
+    background-color: cadetblue;
+    grid-column: 1/4;
 }
