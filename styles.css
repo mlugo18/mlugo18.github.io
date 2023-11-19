@@ -24,7 +24,7 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-.grid>content{
+.grid>content, aside{
     background-color: whitesmoke;
     border-radius: 10px;
     padding: 2em;
